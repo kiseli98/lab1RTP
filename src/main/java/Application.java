@@ -12,7 +12,7 @@ import static handlers.Handlers.*;
 
 public class Application {
     private static ActorSystem actorSystem = new ActorSystem();
-    private static String url = "http://localhost:4000/iot";
+    private static String url = "http://192.168.1.9:4000/iot";
 
     public static void main(String[] args) throws InterruptedException {
         System.out.println("Enter output interval for sensors 1 and 2 : \n");
