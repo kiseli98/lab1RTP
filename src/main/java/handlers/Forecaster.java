@@ -1,12 +1,11 @@
 package handlers;
 
-import actors.Handler;
 import model.MessageSensor1;
 import model.Sensor;
 
 import java.util.concurrent.CopyOnWriteArrayList;
 
-public class Forecaster extends Handler {
+public class Forecaster implements Handler {
     CopyOnWriteArrayList<Sensor> sensorEntries = new CopyOnWriteArrayList<>();
     private double forecastInterval;
     long flag = 0;

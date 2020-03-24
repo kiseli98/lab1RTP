@@ -1,5 +1,7 @@
 package actors;
 
+import handlers.Handler;
+
 import java.util.Queue;
 import java.util.concurrent.ConcurrentLinkedQueue;
 
@@ -17,8 +19,7 @@ public class Actor extends Thread{
         isRunning = false;
     }
 
-    Actor(String name, ActorSystem system, Handler handler){
-        handler.system = system;
+    Actor(String name, Handler handler){
         this.actorName = name;
         this.handler = handler;
         this.inbox = new ConcurrentLinkedQueue<>();
@@ -37,7 +38,6 @@ public class Actor extends Thread{
 
     @Override
     public void run(){
-
         while (isRunning){
             try{
                 handler.receive(!inbox.isEmpty() ? inbox.remove() : null);

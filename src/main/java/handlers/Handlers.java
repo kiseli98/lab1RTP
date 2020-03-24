@@ -1,12 +1,9 @@
 package handlers;
 
-import actors.Handler;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import model.MessageSensor1;
 import model.ResponseSensor1;
 import model.ResponseSensor2;
-import model.Sensor;
 
 public class Handlers {
     static ObjectMapper mapper = new ObjectMapper();
