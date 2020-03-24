@@ -1,7 +1,4 @@
-import actors.ActorSystem;
 import handlers.Forecaster;
-import handlers.Handler;
-
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
@@ -34,7 +31,7 @@ public class Application {
 
         system.createActorGroup("dataReceiver", dataReceiver);
         system.createActorGroup("processor", processor);
-        system.createActorGroup("printer",printer);
+        system.createActorGroup("printer", printer);
         system.start();
 
         Client client = ClientBuilder.newClient();
@@ -45,7 +42,7 @@ public class Application {
                 .build()) {
             source.register(inboundSseEvent -> {
                         String data = inboundSseEvent.readData();
-                system.sendMessage("dataReceiver", data);
+                        system.sendMessage("dataReceiver", data);
                     }
             );
             source.open();

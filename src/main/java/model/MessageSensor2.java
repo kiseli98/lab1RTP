@@ -5,7 +5,7 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class MessageSensor2 implements Sensor{
+public class MessageSensor2 implements Sensor {
     @JsonProperty("temperature_sensor_2")
     double temperatureSensor;
     @JsonProperty("humidity_sensor_2")

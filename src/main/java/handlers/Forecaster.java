@@ -10,20 +10,22 @@ public class Forecaster implements Handler {
     private double forecastInterval;
     long flag = 0;
 
-    public Forecaster(double interval){
+    public Forecaster(double interval) {
         forecastInterval = interval;
     }
 
     @Override
     public void receive(Object msg) {
-        if(msg == null) { return; }
+        if (msg == null) {
+            return;
+        }
 
-        if(sensorEntries.isEmpty()){
+        if (sensorEntries.isEmpty()) {
             flag = System.currentTimeMillis();
         }
 
-        sensorEntries.add((Sensor)msg);
-        if(System.currentTimeMillis() - flag < forecastInterval * 1000){
+        sensorEntries.add((Sensor) msg);
+        if (System.currentTimeMillis() - flag < forecastInterval * 1000) {
             return;
         }
 
@@ -74,66 +76,66 @@ public class Forecaster implements Handler {
     private static String doForecast(Sensor message) {
         String forecast = "JUST_A_NORMAL_DAY";
 
-        if( message.getTemperatureSensor() < -2 &&
+        if (message.getTemperatureSensor() < -2 &&
                 message.getLightSensor() < 128 &&
-                message.getAtmoPressureSensor() < 720){
+                message.getAtmoPressureSensor() < 720) {
             forecast = "SNOW";
         }
 
-        if( message.getTemperatureSensor() < -2 &&
+        if (message.getTemperatureSensor() < -2 &&
                 message.getLightSensor() > 128 &&
-                message.getAtmoPressureSensor() < 680){
+                message.getAtmoPressureSensor() < 680) {
             forecast = "WET_SNOW";
         }
 
-        if( message.getTemperatureSensor() < -8){
+        if (message.getTemperatureSensor() < -8) {
             forecast = "SNOW";
         }
 
-        if( message.getTemperatureSensor() < -15 &&
-                message.getWindSpeedSensor() > 45){
+        if (message.getTemperatureSensor() < -15 &&
+                message.getWindSpeedSensor() > 45) {
             forecast = "BLIZZARD";
         }
 
-        if( message.getTemperatureSensor() > 0 &&
+        if (message.getTemperatureSensor() > 0 &&
                 message.getAtmoPressureSensor() < 710 &&
                 message.getHumiditySensor() > 70 &&
-                message.getWindSpeedSensor() < 20){
+                message.getWindSpeedSensor() < 20) {
             forecast = "SLIGHT_RAIN";
         }
 
-        if( message.getTemperatureSensor() > 0 &&
+        if (message.getTemperatureSensor() > 0 &&
                 message.getAtmoPressureSensor() < 690 &&
                 message.getHumiditySensor() > 70 &&
-                message.getWindSpeedSensor() > 20){
+                message.getWindSpeedSensor() > 20) {
             forecast = "HEAVY_RAIN";
         }
 
-        if( message.getTemperatureSensor() > 30 &&
+        if (message.getTemperatureSensor() > 30 &&
                 message.getAtmoPressureSensor() < 770 &&
                 message.getHumiditySensor() > 80 &&
-                message.getLightSensor() > 192){
+                message.getLightSensor() > 192) {
             forecast = "HOT";
         }
 
 
-        if( message.getTemperatureSensor() > 30 &&
+        if (message.getTemperatureSensor() > 30 &&
                 message.getAtmoPressureSensor() < 770 &&
                 message.getHumiditySensor() > 50 &&
                 message.getLightSensor() > 192 &&
-                message.getWindSpeedSensor() > 35){
+                message.getWindSpeedSensor() > 35) {
             forecast = "CONVECTION_OVEN";
         }
 
-        if( message.getTemperatureSensor() > 25 &&
+        if (message.getTemperatureSensor() > 25 &&
                 message.getAtmoPressureSensor() < 750 &&
                 message.getHumiditySensor() > 70 &&
                 message.getLightSensor() < 192 &&
-                message.getWindSpeedSensor() < 10){
+                message.getWindSpeedSensor() < 10) {
             forecast = "CONVECTION_OVEN";
         }
 
-        if(message.getTemperatureSensor() > 25 &&
+        if (message.getTemperatureSensor() > 25 &&
                 message.getAtmoPressureSensor() < 750 &&
                 message.getHumiditySensor() > 70 &&
                 message.getLightSensor() < 192 &&
@@ -141,14 +143,14 @@ public class Forecaster implements Handler {
         ) {
             forecast = "SLIGHT_BREEZE";
         }
-        if(message.getLightSensor() < 128){
+        if (message.getLightSensor() < 128) {
             forecast = "CLOUDY";
         }
 
-        if(message.getTemperatureSensor() > 30 &&
+        if (message.getTemperatureSensor() > 30 &&
                 message.getAtmoPressureSensor() < 660 &&
                 message.getHumiditySensor() > 85 &&
-                message.getWindSpeedSensor() > 45){
+                message.getWindSpeedSensor() > 45) {
             forecast = "MONSOON";
         }
 

@@ -14,13 +14,13 @@ public class ActorGroup {
         this.groupName = groupName;
     }
 
-    public void addActor(){
-        Actor createdActor = new Actor(groupName,handler);
+    public void addActor() {
+        Actor createdActor = new Actor(groupName, handler);
         createdActor.start();
         actors.add(createdActor);
     }
 
-    public void removeActor(Actor removingActor){
+    public void removeActor(Actor removingActor) {
         actors.remove(removingActor);
         removingActor.stopThread();
     }
