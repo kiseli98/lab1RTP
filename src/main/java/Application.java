@@ -11,12 +11,11 @@ import static handlers.Handler.system;
 import static handlers.Handlers.*;
 
 public class Application {
-    private static String ip;
-//    private static String ip = "192.168.1.9";
+    private static String ip = "192.168.1.9";
 
     public static void main(String[] args) throws InterruptedException {
-        System.out.println("Enter ip address of your machine where /iot is running: \n");
         Scanner scanner = new Scanner(System.in);
+        System.out.println("Enter ip address of your machine where /iot is running: \n");
         ip = scanner.nextLine();
 
         System.out.println("Enter output interval for sensors 1 and 2 : \n");
