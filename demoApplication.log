@@ -1,114 +1,1332 @@
-[2020-03-25 17:48:08,410] INFO  [app.Application] SSE is running on 192.168.1.9 
-[2020-03-25 17:48:08,411] INFO  [app.Application] Sensor 1 time interval is set to 1.0 seconds 
-[2020-03-25 17:48:08,411] INFO  [app.Application] Sensor 2 time interval is set to 1.0 seconds 
-[2020-03-25 17:48:08,963] INFO  [app.Application] Actor <processor> has crashed 
+[2020-03-25 18:23:57,735] INFO  [app.Application] SSE is running on localhost 
+[2020-03-25 18:23:57,736] INFO  [app.Application] Sensor 1 time interval is set to 0.01 seconds 
+[2020-03-25 18:23:57,736] INFO  [app.Application] Sensor 2 time interval is set to 0.01 seconds 
+[2020-03-25 18:23:58,184] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 14.649405657963962
+ Humidity - 41.357867423147184
+ Atmosphere pressure - 677.2092267075518
+ Light - 128.9
+ Wind speed - 24.466406827929752 
+[2020-03-25 18:23:58,212] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 6.166096290148066
+ Humidity - 48.82182893809304
+ Atmosphere pressure - 675.7442365559376
+ Light - 122.58333333333333
+ Wind speed - 23.42483079047933 
+[2020-03-25 18:23:58,287] INFO  [app.Application] Actor <processor> has crashed 
 Panic exception 
-[2020-03-25 17:48:08,964] INFO  [app.Application] Actor processor1 was resurrected after failure 
-[2020-03-25 17:48:09,272] INFO  [app.Application] Actor <processor> has crashed 
+[2020-03-25 18:23:58,287] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 10.35814516637661
+ Humidity - 42.84607484668433
+ Atmosphere pressure - 689.1256705755825
+ Light - 124.38095238095238
+ Wind speed - 20.477024905137633 
+[2020-03-25 18:23:58,287] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.418841970651362
+ Humidity - 48.937954770473844
+ Atmosphere pressure - 698.7627711235824
+ Light - 139.1578947368421
+ Wind speed - 23.161875884128076 
+[2020-03-25 18:23:58,293] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.888725851983295
+ Humidity - 39.37641895020562
+ Atmosphere pressure - 731.354775008008
+ Light - 153.4
+ Wind speed - 23.399432576126852 
+[2020-03-25 18:23:58,322] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 1.4896857931541945
+ Humidity - 41.61596313185757
+ Atmosphere pressure - 700.1238810490958
+ Light - 148.375
+ Wind speed - 20.652477695356193 
+[2020-03-25 18:23:58,395] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.436295292324
+ Humidity - 49.748393267504355
+ Atmosphere pressure - 681.1658948036619
+ Light - 131.4
+ Wind speed - 22.79786310668841 
+[2020-03-25 18:23:58,395] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 6.368304973784582
+ Humidity - 58.30413462628756
+ Atmosphere pressure - 699.6186150527453
+ Light - 89.95
+ Wind speed - 25.856967130457555 
+[2020-03-25 18:23:58,395] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 7.929674335078263
+ Humidity - 44.77952440175028
+ Atmosphere pressure - 703.9682662698214
+ Light - 125.73469387755102
+ Wind speed - 23.708764622989115 
+[2020-03-25 18:23:58,395] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 6.65766576591212
+ Humidity - 47.59320444099568
+ Atmosphere pressure - 701.7575368185877
+ Light - 148.28571428571428
+ Wind speed - 20.01750123144418 
+[2020-03-25 18:23:58,451] INFO  [app.Application] Actor processor6 was resurrected after failure 
+[2020-03-25 18:23:58,451] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 12.89415108221565
+ Humidity - 43.957330133494445
+ Atmosphere pressure - 693.2783141573059
+ Light - 109.45454545454545
+ Wind speed - 16.875591307241326 
+[2020-03-25 18:23:58,451] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 21.416639415658416
+ Humidity - 49.71821968536113
+ Atmosphere pressure - 726.0296462391593
+ Light - 176.0
+ Wind speed - 16.16215141253029 
+[2020-03-25 18:23:58,559] INFO  [app.Application] Actor <processor> has crashed 
 Panic exception 
-[2020-03-25 17:48:09,272] INFO  [app.Application] Actor processor0 was resurrected after failure 
-[2020-03-25 17:48:09,860] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
- Temperature - 8.58680065534287
- Humidity - 48.124470034246244
- Atmosphere pressure - 699.2089818908369
- Light - 129.7537313432836
- Wind speed - 23.621363463352026 
-[2020-03-25 17:48:10,024] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
- Temperature - 10.198175637777704
- Humidity - 49.384803227783195
- Atmosphere pressure - 700.881515589389
- Light - 129.95774647887325
- Wind speed - 24.20422625639979 
-[2020-03-25 17:48:10,879] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
- Temperature - 10.87908020989082
- Humidity - 49.01121020433148
- Atmosphere pressure - 702.7079153841182
- Light - 125.9225352112676
- Wind speed - 24.694950831829196 
-[2020-03-25 17:48:11,378] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
- Temperature - 11.402534308170077
- Humidity - 50.82385847643251
- Atmosphere pressure - 696.0821624937993
- Light - 131.43150684931507
- Wind speed - 26.452226576937015 
-[2020-03-25 17:48:12,081] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
- Temperature - 10.36244849675427
- Humidity - 49.64157722486622
- Atmosphere pressure - 695.2247238044256
- Light - 142.92105263157896
- Wind speed - 24.80452069827153 
-[2020-03-25 17:48:12,529] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
- Temperature - 12.079472810148438
- Humidity - 46.17804752350784
- Atmosphere pressure - 698.23971321191
- Light - 135.34615384615384
- Wind speed - 25.83941038102838 
-[2020-03-25 17:48:13,136] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
- Temperature - 11.841541760888004
- Humidity - 52.54457283462371
- Atmosphere pressure - 702.0617928049516
- Light - 143.4857142857143
- Wind speed - 28.302203411758473 
-[2020-03-25 17:48:13,549] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
- Temperature - 14.678700570245104
- Humidity - 55.465944061761114
- Atmosphere pressure - 703.1640816277813
- Light - 126.37837837837837
- Wind speed - 23.143903462535004 
-[2020-03-25 17:48:15,002] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
- Temperature - 11.848118525302349
- Humidity - 45.803426496293206
- Atmosphere pressure - 698.8922781986029
+[2020-03-25 18:23:58,559] INFO  [app.Application] Actor processor1 was resurrected after failure 
+[2020-03-25 18:23:58,559] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.133402067794108
+ Humidity - 48.833458674818665
+ Atmosphere pressure - 708.9003220575618
+ Light - 131.1578947368421
+ Wind speed - 23.40811276793582 
+[2020-03-25 18:23:58,559] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 16.97091067822772
+ Humidity - 50.2465497921222
+ Atmosphere pressure - 702.3419128272923
+ Light - 124.83333333333333
+ Wind speed - 29.301753303076385 
+[2020-03-25 18:23:58,717] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 4.490909148786159
+ Humidity - 47.16653867029577
+ Atmosphere pressure - 694.9734396965633
+ Light - 126.85
+ Wind speed - 26.67829348073591 
+[2020-03-25 18:23:58,717] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 12.72544468140846
+ Humidity - 39.989569716366276
+ Atmosphere pressure - 710.9131294973383
+ Light - 105.7
+ Wind speed - 22.728294153917616 
+[2020-03-25 18:23:58,717] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 5.6109154007795325
+ Humidity - 55.54780733254498
+ Atmosphere pressure - 707.7773286527117
+ Light - 128.13333333333333
+ Wind speed - 21.18504048860729 
+[2020-03-25 18:23:58,717] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 8.124173420069827
+ Humidity - 45.571432010937606
+ Atmosphere pressure - 706.2266436095025
+ Light - 146.5625
+ Wind speed - 24.614096921046457 
+[2020-03-25 18:23:58,717] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 12.36481343882542
+ Humidity - 43.459288831446486
+ Atmosphere pressure - 701.3956377768568
+ Light - 120.5
+ Wind speed - 21.516410953961888 
+[2020-03-25 18:23:58,717] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 6.266812759428502
+ Humidity - 56.96866995283087
+ Atmosphere pressure - 703.4493753514912
+ Light - 122.25
+ Wind speed - 25.922582251015434 
+[2020-03-25 18:23:58,717] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 6.372280983473139
+ Humidity - 42.362328202793655
+ Atmosphere pressure - 712.9073057335942
+ Light - 157.0
+ Wind speed - 26.778400011789905 
+[2020-03-25 18:23:58,823] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.071985029604496
+ Humidity - 64.071601055204
+ Atmosphere pressure - 689.9184909760173
+ Light - 128.5
+ Wind speed - 22.64443142856875 
+[2020-03-25 18:23:58,823] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 9.764410552815564
+ Humidity - 47.73952396537756
+ Atmosphere pressure - 688.2752099315321
+ Light - 121.55
+ Wind speed - 19.90270853111077 
+[2020-03-25 18:23:58,823] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 16.987846996667752
+ Humidity - 47.11070676776458
+ Atmosphere pressure - 673.0718513019262
+ Light - 155.58333333333334
+ Wind speed - 27.011070194149934 
+[2020-03-25 18:23:58,823] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 8.920174534999608
+ Humidity - 52.32845577088145
+ Atmosphere pressure - 696.1493648091455
+ Light - 145.41666666666666
+ Wind speed - 21.745401479087622 
+[2020-03-25 18:23:58,823] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 13.996683597107943
+ Humidity - 56.29240479732289
+ Atmosphere pressure - 710.7851987076021
+ Light - 123.95
+ Wind speed - 26.07204547782839 
+[2020-03-25 18:23:58,833] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 12.230722358784595
+ Humidity - 47.694092822105134
+ Atmosphere pressure - 712.5955899926969
+ Light - 129.85
+ Wind speed - 28.856503570019942 
+[2020-03-25 18:23:58,884] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 8.01172181514074
+ Humidity - 50.2352306834253
+ Atmosphere pressure - 699.298374824772
+ Light - 134.25
+ Wind speed - 27.513522690981468 
+[2020-03-25 18:23:58,890] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 9.991810984776055
+ Humidity - 45.96340215372664
+ Atmosphere pressure - 696.2222443000268
+ Light - 121.7
+ Wind speed - 30.30313270175744 
+[2020-03-25 18:23:58,893] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 8.564014249891175
+ Humidity - 62.78912271242465
+ Atmosphere pressure - 687.4866787345724
+ Light - 150.85
+ Wind speed - 26.4481460210334 
+[2020-03-25 18:23:59,052] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 12.486390110889442
+ Humidity - 39.56405101073628
+ Atmosphere pressure - 665.9721903579859
+ Light - 191.0
+ Wind speed - 41.58240151134561 
+[2020-03-25 18:23:59,099] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 13.749773042124238
+ Humidity - 45.776090436224806
+ Atmosphere pressure - 691.300925258577
+ Light - 138.52380952380952
+ Wind speed - 27.900881126285828 
+[2020-03-25 18:23:59,103] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.697729065304202
+ Humidity - 56.179674335539424
+ Atmosphere pressure - 681.3633047172441
+ Light - 130.6
+ Wind speed - 22.71734479953873 
+[2020-03-25 18:23:59,198] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 10.448579121797893
+ Humidity - 53.50879241541594
+ Atmosphere pressure - 737.3428120877497
+ Light - 157.0
+ Wind speed - 38.11549466583086 
+[2020-03-25 18:23:59,198] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 7.550446304641047
+ Humidity - 44.25567360844269
+ Atmosphere pressure - 696.8032836393716
+ Light - 118.7
+ Wind speed - 24.59380057211684 
+[2020-03-25 18:23:59,200] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 12.61527384118136
+ Humidity - 48.14231303710304
+ Atmosphere pressure - 704.1604986395889
+ Light - 127.775
+ Wind speed - 23.81679381447924 
+[2020-03-25 18:23:59,307] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 11.306322254292471
+ Humidity - 54.514455853892436
+ Atmosphere pressure - 698.0868833695663
+ Light - 127.825
+ Wind speed - 23.804190359622687 
+[2020-03-25 18:23:59,307] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 10.048766437798612
+ Humidity - 29.960191210126474
+ Atmosphere pressure - 702.009335967708
+ Light - 100.0
+ Wind speed - 20.612720491395336 
+[2020-03-25 18:23:59,307] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 14.403154366811123
+ Humidity - 60.40048306575204
+ Atmosphere pressure - 717.4018113014941
+ Light - 108.52941176470588
+ Wind speed - 24.917302464333694 
+[2020-03-25 18:23:59,388] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 14.312902992254541
+ Humidity - 44.63697474784495
+ Atmosphere pressure - 725.4995688387974
+ Light - 118.04761904761905
+ Wind speed - 24.517539847993216 
+[2020-03-25 18:23:59,389] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 8.389497668635865
+ Humidity - 49.19041452636951
+ Atmosphere pressure - 694.5274483965455
+ Light - 119.48717948717949
+ Wind speed - 25.81096747892466 
+[2020-03-25 18:23:59,421] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 9.142581276488462
+ Humidity - 44.386388715661056
+ Atmosphere pressure - 683.4873543327386
+ Light - 115.5
+ Wind speed - 28.942378561802187 
+[2020-03-25 18:23:59,453] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 8.925475669605131
+ Humidity - 56.0657516276184
+ Atmosphere pressure - 746.27774560971
+ Light - 32.0
+ Wind speed - 32.02499017247828 
+[2020-03-25 18:23:59,566] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.887377447250685
+ Humidity - 51.6002715369956
+ Atmosphere pressure - 713.2288971458383
+ Light - 152.5
+ Wind speed - 21.108156665908183 
+[2020-03-25 18:23:59,566] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.975038678889128
+ Humidity - 41.58656808389356
+ Atmosphere pressure - 698.2656638515823
+ Light - 138.5
+ Wind speed - 10.869561745634078 
+[2020-03-25 18:23:59,585] INFO  [app.Application] Forecast from sensor 1 : SNOW
+ Temperature - -12.056535666411136
+ Humidity - 49.96438022567796
+ Atmosphere pressure - 690.0752887376163
+ Light - 170.0
+ Wind speed - 23.640320174920358 
+[2020-03-25 18:23:59,614] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 20.914807155380164
+ Humidity - 66.21577807446761
+ Atmosphere pressure - 681.4508555531559
+ Light - 137.0
+ Wind speed - 37.093924904533196 
+[2020-03-25 18:23:59,634] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 19.977066910245544
+ Humidity - 27.474290081354003
+ Atmosphere pressure - 740.9388741112363
+ Light - 209.5
+ Wind speed - 7.326472231499048 
+[2020-03-25 18:23:59,667] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 21.663645379937773
+ Humidity - 69.8672871103697
+ Atmosphere pressure - 724.3277021308825
+ Light - 245.5
+ Wind speed - 34.08949345732817 
+[2020-03-25 18:23:59,733] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 1.154325337809735
+ Humidity - 45.011174982464674
+ Atmosphere pressure - 686.4281609419352
+ Light - 230.5
+ Wind speed - 41.348269900383286 
+[2020-03-25 18:23:59,767] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 27.0558164215339
+ Humidity - 28.289319962805703
+ Atmosphere pressure - 706.747887773475
  Light - 134.0
- Wind speed - 24.311441707873612 
-[2020-03-25 17:48:15,002] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
- Temperature - 11.027181563059012
- Humidity - 49.07565063008571
- Atmosphere pressure - 695.1583253977146
- Light - 119.52112676056338
- Wind speed - 25.89041812135986 
-[2020-03-25 17:48:16,018] INFO  [app.Application] Actor <processor> has crashed 
+ Wind speed - 26.479231633812404 
+[2020-03-25 18:23:59,871] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 13.635671645362772
+ Humidity - 15.307772101504003
+ Atmosphere pressure - 617.2716664330045
+ Light - 155.5
+ Wind speed - 21.71928671265585 
+[2020-03-25 18:23:59,871] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 6.0657731339763075
+ Humidity - 56.05845649786886
+ Atmosphere pressure - 761.0596887492851
+ Light - 81.5
+ Wind speed - 23.44283259667577 
+[2020-03-25 18:23:59,917] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 18.950929186648935
+ Humidity - 16.722228457680277
+ Atmosphere pressure - 764.9755436185831
+ Light - 62.5
+ Wind speed - 19.417924369066224 
+[2020-03-25 18:23:59,917] INFO  [app.Application] Forecast from sensor 2 : SNOW
+ Temperature - -11.121244209891195
+ Humidity - 48.094852476805166
+ Atmosphere pressure - 756.9736114704034
+ Light - 193.5
+ Wind speed - 28.659486016872833 
+[2020-03-25 18:23:59,963] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 22.644056619679265
+ Humidity - 65.57284792205508
+ Atmosphere pressure - 664.4365462807474
+ Light - 147.66666666666666
+ Wind speed - 21.702591117941854 
+[2020-03-25 18:23:59,963] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 2.5450763841620727
+ Humidity - 48.270158006919424
+ Atmosphere pressure - 712.4898022740787
+ Light - 154.0
+ Wind speed - 16.08570144573037 
+[2020-03-25 18:24:00,100] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 29.505520800030574
+ Humidity - 58.66938727845435
+ Atmosphere pressure - 672.4412093751336
+ Light - 230.0
+ Wind speed - 34.97355180307669 
+[2020-03-25 18:24:00,100] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 1.8173375095081177
+ Humidity - 53.86048151941603
+ Atmosphere pressure - 701.4170858691144
+ Light - 108.0
+ Wind speed - 27.635401172852447 
+[2020-03-25 18:24:00,137] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 32.362449143454334
+ Humidity - 55.84698417294076
+ Atmosphere pressure - 625.9434018306981
+ Light - 239.5
+ Wind speed - 6.543791070127264 
+[2020-03-25 18:24:00,137] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 19.114958633230806
+ Humidity - 45.8595692695019
+ Atmosphere pressure - 744.7513847278306
+ Light - 93.0
+ Wind speed - 37.769124686141964 
+[2020-03-25 18:24:00,204] INFO  [app.Application] Forecast from sensor 1 : WET_SNOW
+ Temperature - -4.603558777342068
+ Humidity - 76.91640332430745
+ Atmosphere pressure - 671.5977444826835
+ Light - 134.0
+ Wind speed - 34.771343334726865 
+[2020-03-25 18:24:00,204] INFO  [app.Application] Forecast from sensor 2 : HEAVY_RAIN
+ Temperature - 25.789557948732703
+ Humidity - 75.3958384648866
+ Atmosphere pressure - 638.9064859575424
+ Light - 202.0
+ Wind speed - 22.467057425459483 
+[2020-03-25 18:24:00,344] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 4.046653995156256
+ Humidity - 70.05071421521706
+ Atmosphere pressure - 631.0083432021145
+ Light - 127.33333333333333
+ Wind speed - 30.74464912931275 
+[2020-03-25 18:24:00,373] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 8.542250818668427
+ Humidity - 16.875768799418584
+ Atmosphere pressure - 665.417481630439
+ Light - 158.66666666666666
+ Wind speed - 20.462019009000528 
+[2020-03-25 18:24:00,400] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 20.669237418181385
+ Humidity - 57.69408930321464
+ Atmosphere pressure - 733.9605379501427
+ Light - 131.5
+ Wind speed - 22.899009118846767 
+[2020-03-25 18:24:00,434] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - -4.07834161780861
+ Humidity - 70.64081427118776
+ Atmosphere pressure - 756.6000278889935
+ Light - 50.0
+ Wind speed - 22.5767520528916 
+[2020-03-25 18:24:00,544] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 7.1821425840582584
+ Humidity - 36.53027154032402
+ Atmosphere pressure - 656.2095629327214
+ Light - 130.25
+ Wind speed - 22.89399223323791 
+[2020-03-25 18:24:00,553] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 23.471444926080743
+ Humidity - 56.66127914516616
+ Atmosphere pressure - 653.7788003287711
+ Light - 203.75
+ Wind speed - 20.65505950111053 
+[2020-03-25 18:24:00,699] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 18.923436970184316
+ Humidity - 31.645751010694326
+ Atmosphere pressure - 693.9021350979318
+ Light - 119.33333333333333
+ Wind speed - 31.240786993386575 
+[2020-03-25 18:24:00,718] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 6.5518435691304555
+ Humidity - 63.81028575084323
+ Atmosphere pressure - 709.548462460761
+ Light - 213.66666666666666
+ Wind speed - 19.01548351650327 
+[2020-03-25 18:24:00,861] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 19.012741518135975
+ Humidity - 48.70762503671179
+ Atmosphere pressure - 762.5776679241753
+ Light - 119.0
+ Wind speed - 15.523969153071231 
+[2020-03-25 18:24:00,861] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 21.832653982478472
+ Humidity - 47.958796222334065
+ Atmosphere pressure - 694.6569320215531
+ Light - 94.5
+ Wind speed - 37.82833127633597 
+[2020-03-25 18:24:00,969] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 4.581686655966289
+ Humidity - 65.68111742404955
+ Atmosphere pressure - 706.794318981983
+ Light - 111.0
+ Wind speed - 24.372656517123648 
+[2020-03-25 18:24:00,969] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 16.929390077413547
+ Humidity - 62.139580358193164
+ Atmosphere pressure - 734.5340786681032
+ Light - 107.0
+ Wind speed - 23.528609946717562 
+[2020-03-25 18:24:01,041] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - -2.2495340678841615
+ Humidity - 39.95796901531607
+ Atmosphere pressure - 653.1817764236038
+ Light - 118.25
+ Wind speed - 28.685259281775892 
+[2020-03-25 18:24:01,041] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 14.660581283680713
+ Humidity - 38.71785390895152
+ Atmosphere pressure - 724.5089229266707
+ Light - 110.0
+ Wind speed - 20.945381487498377 
+[2020-03-25 18:24:01,102] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 13.353627416729722
+ Humidity - 46.151975784945385
+ Atmosphere pressure - 749.7538495596768
+ Light - 158.5
+ Wind speed - 44.281914065254654 
+[2020-03-25 18:24:01,102] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 34.29731846086769
+ Humidity - 45.728112749132954
+ Atmosphere pressure - 760.4171965273677
+ Light - 79.5
+ Wind speed - 23.370504887517143 
+[2020-03-25 18:24:01,153] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 24.108821847069784
+ Humidity - 13.513301491901153
+ Atmosphere pressure - 662.5929304454577
+ Light - 67.5
+ Wind speed - 30.626935260974193 
+[2020-03-25 18:24:01,185] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 9.386436269671865
+ Humidity - 93.36662311808364
+ Atmosphere pressure - 714.0317545165761
+ Light - 120.0
+ Wind speed - 7.1569893261941075 
+[2020-03-25 18:24:01,347] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 11.861062036597643
+ Humidity - 72.60337990695167
+ Atmosphere pressure - 718.0234229066235
+ Light - 196.0
+ Wind speed - 25.104273724182665 
+[2020-03-25 18:24:01,379] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 24.077558036610643
+ Humidity - 33.9995291499905
+ Atmosphere pressure - 640.3225448833466
+ Light - 98.0
+ Wind speed - 26.979350089454986 
+[2020-03-25 18:24:01,431] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 7.4951720583394765
+ Humidity - 61.088695790381074
+ Atmosphere pressure - 741.4559201355654
+ Light - 103.66666666666667
+ Wind speed - 42.726628002397234 
+[2020-03-25 18:24:01,431] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 11.954371644035353
+ Humidity - 69.68297656058955
+ Atmosphere pressure - 710.2419947090251
+ Light - 89.66666666666667
+ Wind speed - 31.641776350648822 
+[2020-03-25 18:24:01,495] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 19.9300617586986
+ Humidity - 55.02734167708494
+ Atmosphere pressure - 626.7113297557333
+ Light - 153.0
+ Wind speed - 33.7583377834535 
+[2020-03-25 18:24:01,527] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - -2.4960418441714887
+ Humidity - 84.68796794272552
+ Atmosphere pressure - 700.4414862875847
+ Light - 83.33333333333333
+ Wind speed - 20.547840410127954 
+[2020-03-25 18:24:01,596] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.064031207585046
+ Humidity - 44.15922606806663
+ Atmosphere pressure - 714.6230164653678
+ Light - 165.5
+ Wind speed - 20.187750580807716 
+[2020-03-25 18:24:01,632] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 26.380716631808557
+ Humidity - 36.540134565816714
+ Atmosphere pressure - 757.0098367346101
+ Light - 161.5
+ Wind speed - 38.83193974461055 
+[2020-03-25 18:24:01,692] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 3.815260970280182
+ Humidity - 42.55514109463431
+ Atmosphere pressure - 757.4890564827838
+ Light - 169.5
+ Wind speed - 7.438756575038696 
+[2020-03-25 18:24:01,692] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 14.882635768268042
+ Humidity - 37.14655343935425
+ Atmosphere pressure - 697.1266562659553
+ Light - 216.5
+ Wind speed - 28.29815371134502 
+[2020-03-25 18:24:01,734] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - -7.5845429412038845
+ Humidity - 67.95549323650414
+ Atmosphere pressure - 720.036330696196
+ Light - 83.0
+ Wind speed - 22.052060181512488 
+[2020-03-25 18:24:01,734] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 3.7125646068278986
+ Humidity - 28.485902156956676
+ Atmosphere pressure - 705.0149598666908
+ Light - 113.0
+ Wind speed - 20.35639468158703 
+[2020-03-25 18:24:01,789] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 16.721405877226402
+ Humidity - 80.19843590287131
+ Atmosphere pressure - 710.5210884769833
+ Light - 149.5
+ Wind speed - 28.41979994906419 
+[2020-03-25 18:24:01,789] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 17.23991510894306
+ Humidity - 32.87246297582321
+ Atmosphere pressure - 691.3756639880514
+ Light - 240.0
+ Wind speed - 8.668865727573678 
+[2020-03-25 18:24:01,948] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 1.3723362522140465
+ Humidity - 57.53643370728498
+ Atmosphere pressure - 662.6399818183003
+ Light - 141.33333333333334
+ Wind speed - 25.633615474922266 
+[2020-03-25 18:24:01,955] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 11.380398160209348
+ Humidity - 57.41580767971228
+ Atmosphere pressure - 706.3807769434088
+ Light - 184.33333333333334
+ Wind speed - 23.48337300142471 
+[2020-03-25 18:24:01,988] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 18.46339236831533
+ Humidity - 28.782589742623934
+ Atmosphere pressure - 692.6122650604536
+ Light - 159.5
+ Wind speed - 34.1771172328692 
+[2020-03-25 18:24:01,993] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 29.926463726053107
+ Humidity - 20.394041821377574
+ Atmosphere pressure - 758.5739286494463
+ Light - 129.5
+ Wind speed - 21.64700104891535 
+[2020-03-25 18:24:02,085] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 30.8372372689458
+ Humidity - 41.556153217471234
+ Atmosphere pressure - 712.3738374228502
+ Light - 89.66666666666667
+ Wind speed - 23.36397713443165 
+[2020-03-25 18:24:02,091] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 3.353103215573018
+ Humidity - 42.16653477802483
+ Atmosphere pressure - 636.6625137424406
+ Light - 110.33333333333333
+ Wind speed - 25.966584452976083 
+[2020-03-25 18:24:02,243] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 12.520406050612456
+ Humidity - 51.16615417100914
+ Atmosphere pressure - 666.4907217301018
+ Light - 141.0
+ Wind speed - 17.98330437368491 
+[2020-03-25 18:24:02,261] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 3.169542745146453
+ Humidity - 94.88385907162711
+ Atmosphere pressure - 653.4481297465079
+ Light - 125.0
+ Wind speed - 24.06689113013273 
+[2020-03-25 18:24:02,368] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 4.985626956166439
+ Humidity - 46.17116296861566
+ Atmosphere pressure - 685.0016693705263
+ Light - 152.0
+ Wind speed - 31.060212236957987 
+[2020-03-25 18:24:02,369] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 17.38841321933062
+ Humidity - 58.84241011227707
+ Atmosphere pressure - 678.7534382573272
+ Light - 69.2
+ Wind speed - 17.783741467552343 
+[2020-03-25 18:24:02,405] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 13.325241517922773
+ Humidity - 45.847917837923234
+ Atmosphere pressure - 715.9456454239269
+ Light - 120.15
+ Wind speed - 23.3123078745983 
+[2020-03-25 18:24:02,416] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.266493385008065
+ Humidity - 39.700326218924396
+ Atmosphere pressure - 704.9209171443359
+ Light - 134.2
+ Wind speed - 27.81536600710457 
+[2020-03-25 18:24:02,565] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 17.08250005638457
+ Humidity - 42.15835146300561
+ Atmosphere pressure - 689.7159678249993
+ Light - 131.76190476190476
+ Wind speed - 32.1746931684928 
+[2020-03-25 18:24:02,599] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 15.388069254159664
+ Humidity - 48.17692366104259
+ Atmosphere pressure - 696.1264424199795
+ Light - 126.0
+ Wind speed - 23.79148610224871 
+[2020-03-25 18:24:02,620] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 0.2812135959396537
+ Humidity - 54.129943934812985
+ Atmosphere pressure - 689.1358569618856
+ Light - 133.85714285714286
+ Wind speed - 25.229455967990166 
+[2020-03-25 18:24:02,639] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 5.499879332475569
+ Humidity - 65.67347376431329
+ Atmosphere pressure - 680.6792682161996
+ Light - 119.7
+ Wind speed - 22.98075565301081 
+[2020-03-25 18:24:02,639] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 15.286552498110813
+ Humidity - 47.84435572698138
+ Atmosphere pressure - 703.0620969221438
+ Light - 135.9
+ Wind speed - 24.107231451812456 
+[2020-03-25 18:24:02,668] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 4.6397196577954425
+ Humidity - 53.05396755176953
+ Atmosphere pressure - 701.4630219450161
+ Light - 128.5
+ Wind speed - 28.597463237649162 
+[2020-03-25 18:24:02,702] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 5.243821652202528
+ Humidity - 47.330225918863654
+ Atmosphere pressure - 702.0558486117795
+ Light - 125.8
+ Wind speed - 27.735055901745852 
+[2020-03-25 18:24:02,732] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 4.889048594282418
+ Humidity - 38.94192470991803
+ Atmosphere pressure - 719.7077172654655
+ Light - 131.33333333333334
+ Wind speed - 22.285757405014788 
+[2020-03-25 18:24:02,854] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 12.880796786989134
+ Humidity - 48.975213105252884
+ Atmosphere pressure - 716.6087235511056
+ Light - 121.0
+ Wind speed - 22.864553859873194 
+[2020-03-25 18:24:02,866] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 19.788607539559315
+ Humidity - 59.72671856940616
+ Atmosphere pressure - 740.4490500216217
+ Light - 84.66666666666667
+ Wind speed - 20.167144112369623 
+[2020-03-25 18:24:02,902] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 6.196380254334304
+ Humidity - 37.355203318458315
+ Atmosphere pressure - 727.5899589461565
+ Light - 119.0
+ Wind speed - 28.568595169252227 
+[2020-03-25 18:24:02,915] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 8.375875113015132
+ Humidity - 38.80840535110529
+ Atmosphere pressure - 701.1367136187913
+ Light - 109.9090909090909
+ Wind speed - 27.384644733995913 
+[2020-03-25 18:24:03,000] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 14.4760084217228
+ Humidity - 49.288893561542096
+ Atmosphere pressure - 687.8862941240136
+ Light - 115.63157894736842
+ Wind speed - 23.346791836686652 
+[2020-03-25 18:24:03,012] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 8.726071970572088
+ Humidity - 56.177401418854686
+ Atmosphere pressure - 688.421638641913
+ Light - 145.68421052631578
+ Wind speed - 24.62520062185182 
+[2020-03-25 18:24:03,048] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 17.805727740395103
+ Humidity - 53.01877318904045
+ Atmosphere pressure - 673.8852066074517
+ Light - 96.4
+ Wind speed - 34.66187634482627 
+[2020-03-25 18:24:03,048] INFO  [app.Application] Actor <processor> has crashed 
 Panic exception 
-[2020-03-25 17:48:16,018] INFO  [app.Application] Actor processor3 was resurrected after failure 
-[2020-03-25 17:48:16,018] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
- Temperature - 10.896349346347028
- Humidity - 51.21340105603818
- Atmosphere pressure - 697.0798195732143
- Light - 126.0530303030303
- Wind speed - 24.228893366431812 
-[2020-03-25 17:48:16,018] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
- Temperature - 9.010821597566615
- Humidity - 48.92729456623406
- Atmosphere pressure - 701.621674366538
- Light - 132.54861111111111
- Wind speed - 25.879226588519067 
-[2020-03-25 17:48:16,018] INFO  [app.Application] Actor <processor> has crashed 
+[2020-03-25 18:24:03,048] INFO  [app.Application] Actor processor0 was resurrected after failure 
+[2020-03-25 18:24:03,056] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 6.985141752538794
+ Humidity - 61.045132367638814
+ Atmosphere pressure - 710.0564337876096
+ Light - 109.2
+ Wind speed - 34.540450246475885 
+[2020-03-25 18:24:03,114] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 16.491428374007906
+ Humidity - 46.46435099583031
+ Atmosphere pressure - 705.2215310334035
+ Light - 92.42857142857143
+ Wind speed - 21.053794292373937 
+[2020-03-25 18:24:03,124] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 7.449429388794731
+ Humidity - 50.20642145354624
+ Atmosphere pressure - 741.6173715066363
+ Light - 156.85714285714286
+ Wind speed - 17.80740797157025 
+[2020-03-25 18:24:03,298] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 8.850391291318617
+ Humidity - 42.27924599208833
+ Atmosphere pressure - 698.2498757478958
+ Light - 127.58333333333333
+ Wind speed - 16.90807940366568 
+[2020-03-25 18:24:03,340] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 4.5360500986886025
+ Humidity - 56.00213436546202
+ Atmosphere pressure - 709.1509973123071
+ Light - 151.66666666666666
+ Wind speed - 18.738064059856587 
+[2020-03-25 18:24:03,421] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - -4.283641568766103
+ Humidity - 55.51902998772524
+ Atmosphere pressure - 696.4798844152432
+ Light - 176.16666666666666
+ Wind speed - 26.848627670062864 
+[2020-03-25 18:24:03,421] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 3.5553045769191782
+ Humidity - 22.315168758078002
+ Atmosphere pressure - 688.3543626809145
+ Light - 156.5
+ Wind speed - 25.689716080157464 
+[2020-03-25 18:24:03,441] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 5.276920830922298
+ Humidity - 22.48262034978079
+ Atmosphere pressure - 708.1909840337444
+ Light - 163.5
+ Wind speed - 39.490768148312156 
+[2020-03-25 18:24:03,474] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.939567816486099
+ Humidity - 44.35665098353865
+ Atmosphere pressure - 691.3591532647177
+ Light - 146.33333333333334
+ Wind speed - 23.88879672374925 
+[2020-03-25 18:24:03,504] INFO  [app.Application] Actor <processor> has crashed 
 Panic exception 
-[2020-03-25 17:48:16,018] INFO  [app.Application] Actor processor4 was resurrected after failure 
-[2020-03-25 17:48:17,459] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
- Temperature - 10.964373293277168
- Humidity - 51.235567850404806
- Atmosphere pressure - 698.4445717047957
- Light - 123.79333333333334
- Wind speed - 24.165706954017814 
-[2020-03-25 17:48:17,459] INFO  [app.Application] Actor <processor> has crashed 
+[2020-03-25 18:24:03,504] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 6.736917882508056
+ Humidity - 58.986299308813
+ Atmosphere pressure - 723.9887942648656
+ Light - 74.0
+ Wind speed - 17.225517690237016 
+[2020-03-25 18:24:03,504] INFO  [app.Application] Actor processor1 was resurrected after failure 
+[2020-03-25 18:24:03,505] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 8.247320191935403
+ Humidity - 39.083843135607786
+ Atmosphere pressure - 681.7269954026017
+ Light - 120.25
+ Wind speed - 14.494822883750121 
+[2020-03-25 18:24:03,669] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 17.851967308750595
+ Humidity - 35.381933042589296
+ Atmosphere pressure - 670.914833978258
+ Light - 120.4
+ Wind speed - 29.523087411567083 
+[2020-03-25 18:24:03,669] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 29.586437773635588
+ Humidity - 52.811761641329895
+ Atmosphere pressure - 708.6588516362572
+ Light - 69.2
+ Wind speed - 28.91162586439729 
+[2020-03-25 18:24:03,806] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - -2.951750063474096
+ Humidity - 48.313713939652345
+ Atmosphere pressure - 730.476983307994
+ Light - 119.0
+ Wind speed - 45.34867320522686 
+[2020-03-25 18:24:03,806] INFO  [app.Application] Forecast from sensor 2 : SLIGHT_BREEZE
+ Temperature - 30.521045480843497
+ Humidity - 75.70351169471809
+ Atmosphere pressure - 701.4320465366031
+ Light - 136.0
+ Wind speed - 33.266321882311686 
+[2020-03-25 18:24:03,877] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 4.124047630085313
+ Humidity - 43.028722333200825
+ Atmosphere pressure - 684.7520237956817
+ Light - 117.38461538461539
+ Wind speed - 28.259636493121942 
+[2020-03-25 18:24:03,877] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.635346672927485
+ Humidity - 57.58191077485992
+ Atmosphere pressure - 699.32368221786
+ Light - 148.69230769230768
+ Wind speed - 21.10478125267122 
+[2020-03-25 18:24:03,982] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 5.593271857188365
+ Humidity - 49.471461911282375
+ Atmosphere pressure - 674.2832496158142
+ Light - 147.8
+ Wind speed - 24.866388656860323 
+[2020-03-25 18:24:03,982] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 12.90371177844321
+ Humidity - 48.21360639408081
+ Atmosphere pressure - 704.8456526632817
+ Light - 118.9
+ Wind speed - 21.174774346206604 
+[2020-03-25 18:24:04,140] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 16.732891325133156
+ Humidity - 40.13671466454359
+ Atmosphere pressure - 714.8354897280145
+ Light - 128.75
+ Wind speed - 24.15571108269254 
+[2020-03-25 18:24:04,140] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 13.599562715123037
+ Humidity - 48.63599418894908
+ Atmosphere pressure - 680.8301415792921
+ Light - 122.7
+ Wind speed - 25.43431620264322 
+[2020-03-25 18:24:04,215] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 8.091305053066602
+ Humidity - 48.62317037189531
+ Atmosphere pressure - 719.905287502906
+ Light - 145.2
+ Wind speed - 24.248663260783918 
+[2020-03-25 18:24:04,215] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.713390474922381
+ Humidity - 41.81689078315209
+ Atmosphere pressure - 698.9324056004117
+ Light - 137.95
+ Wind speed - 29.81075865200155 
+[2020-03-25 18:24:04,384] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 5.242652541824157
+ Humidity - 70.39229896760511
+ Atmosphere pressure - 690.1761667669964
+ Light - 94.45
+ Wind speed - 23.12041074388719 
+[2020-03-25 18:24:04,384] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 10.93876510732455
+ Humidity - 56.35349995976113
+ Atmosphere pressure - 691.0070601274987
+ Light - 97.75
+ Wind speed - 25.173968645135343 
+[2020-03-25 18:24:04,384] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 11.296638045318064
+ Humidity - 48.2435453469656
+ Atmosphere pressure - 688.1197067205526
+ Light - 121.25
+ Wind speed - 25.883477448248595 
+[2020-03-25 18:24:04,513] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 12.927569346632577
+ Humidity - 57.028574373301396
+ Atmosphere pressure - 691.589309679397
+ Light - 115.75
+ Wind speed - 26.16166452429723 
+[2020-03-25 18:24:04,577] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 11.200978909741035
+ Humidity - 52.84782961961686
+ Atmosphere pressure - 707.1799626519065
+ Light - 145.23809523809524
+ Wind speed - 28.26998758267131 
+[2020-03-25 18:24:04,577] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 18.07191717491114
+ Humidity - 52.1987926910553
+ Atmosphere pressure - 710.2751021509539
+ Light - 152.66666666666666
+ Wind speed - 23.788425027011105 
+[2020-03-25 18:24:04,606] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 7.862788983434913
+ Humidity - 45.693637289341055
+ Atmosphere pressure - 712.9045353473036
+ Light - 122.8
+ Wind speed - 26.70381688077319 
+[2020-03-25 18:24:04,653] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 15.358719104917153
+ Humidity - 47.37906824699076
+ Atmosphere pressure - 704.6726840883805
+ Light - 109.95
+ Wind speed - 26.553326973742692 
+[2020-03-25 18:24:04,653] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 12.96456726622307
+ Humidity - 52.74866260568793
+ Atmosphere pressure - 697.1385504744086
+ Light - 136.6
+ Wind speed - 29.949316538456664 
+[2020-03-25 18:24:04,764] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 17.39482239914058
+ Humidity - 62.56676494812219
+ Atmosphere pressure - 668.4385427633526
+ Light - 120.05
+ Wind speed - 24.17818978011263 
+[2020-03-25 18:24:04,954] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 7.641135659672824
+ Humidity - 46.29552051054988
+ Atmosphere pressure - 692.0000326109339
+ Light - 140.35
+ Wind speed - 22.79802863077514 
+[2020-03-25 18:24:05,031] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.078951485458463
+ Humidity - 55.40458813120877
+ Atmosphere pressure - 692.197160311074
+ Light - 133.2
+ Wind speed - 23.06130923165152 
+[2020-03-25 18:24:05,031] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 5.176547225922066
+ Humidity - 46.184228008531974
+ Atmosphere pressure - 711.0974617836685
+ Light - 145.5
+ Wind speed - 25.324463724270757 
+[2020-03-25 18:24:05,033] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 3.0261966283127757
+ Humidity - 51.30599490045411
+ Atmosphere pressure - 694.9486095817044
+ Light - 118.21052631578948
+ Wind speed - 21.25579833771749 
+[2020-03-25 18:24:05,188] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.03469792240653
+ Humidity - 48.66561579116494
+ Atmosphere pressure - 706.1297902592665
+ Light - 128.26315789473685
+ Wind speed - 24.22313638696589 
+[2020-03-25 18:24:05,208] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 1.7382471595169549
+ Humidity - 54.810122622260835
+ Atmosphere pressure - 697.6672218688848
+ Light - 137.6
+ Wind speed - 28.370070064494257 
+[2020-03-25 18:24:05,258] INFO  [app.Application] Actor <processor> has crashed 
 Panic exception 
-[2020-03-25 17:48:17,459] INFO  [app.Application] Actor processor2 was resurrected after failure 
-[2020-03-25 17:48:17,459] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
- Temperature - 7.783781698090423
- Humidity - 49.64284136771596
- Atmosphere pressure - 697.2892654093766
- Light - 127.31884057971014
- Wind speed - 25.426560917540183 
-[2020-03-25 17:48:18,490] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
- Temperature - 9.348639018869996
- Humidity - 50.113862354098835
- Atmosphere pressure - 700.1883224613978
- Light - 129.58636363636364
- Wind speed - 24.90683360875804 
-[2020-03-25 17:48:18,492] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
- Temperature - 8.682695048205439
- Humidity - 52.80444638670705
- Atmosphere pressure - 699.7219546524702
- Light - 124.44588744588745
- Wind speed - 23.83277866257008 
+[2020-03-25 18:24:05,258] INFO  [app.Application] Actor processor2 was resurrected after failure 
+[2020-03-25 18:24:05,266] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 10.496463518098308
+ Humidity - 58.43866328578177
+ Atmosphere pressure - 710.8697456594234
+ Light - 140.7
+ Wind speed - 25.136491575303967 
+[2020-03-25 18:24:05,290] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.111945038487308
+ Humidity - 62.82704903997793
+ Atmosphere pressure - 708.6063769002003
+ Light - 142.05
+ Wind speed - 24.360050572308975 
+[2020-03-25 18:24:05,405] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 11.922390367449673
+ Humidity - 52.39152066027046
+ Atmosphere pressure - 708.8340590169621
+ Light - 124.66666666666667
+ Wind speed - 19.647998800823373 
+[2020-03-25 18:24:05,405] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 13.009426502539583
+ Humidity - 36.5521108621558
+ Atmosphere pressure - 733.1916202414055
+ Light - 108.33333333333333
+ Wind speed - 22.325504748707274 
+[2020-03-25 18:24:05,487] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 4.095985401899501
+ Humidity - 46.38868259124895
+ Atmosphere pressure - 708.1852687541583
+ Light - 134.14285714285714
+ Wind speed - 18.72053561667369 
+[2020-03-25 18:24:05,488] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 9.325469922568212
+ Humidity - 51.31653726920264
+ Atmosphere pressure - 703.7092064899314
+ Light - 110.25
+ Wind speed - 23.372344648153895 
+[2020-03-25 18:24:05,516] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 10.369617285901503
+ Humidity - 42.66801128257409
+ Atmosphere pressure - 681.2540553725053
+ Light - 106.34482758620689
+ Wind speed - 21.704444695514542 
+[2020-03-25 18:24:05,587] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 5.655871669221027
+ Humidity - 55.84560239172193
+ Atmosphere pressure - 705.1911085851214
+ Light - 148.28571428571428
+ Wind speed - 27.482695263108397 
+[2020-03-25 18:24:05,588] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.284524924012949
+ Humidity - 59.73388017937738
+ Atmosphere pressure - 707.017845536712
+ Light - 134.6
+ Wind speed - 23.13494041929718 
+[2020-03-25 18:24:05,674] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 15.650646858008361
+ Humidity - 65.90491054096665
+ Atmosphere pressure - 730.351248069
+ Light - 99.8
+ Wind speed - 25.394178085433502 
+[2020-03-25 18:24:05,699] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 13.127550617027714
+ Humidity - 48.0748893497673
+ Atmosphere pressure - 695.7660124325563
+ Light - 131.15
+ Wind speed - 24.804857260965527 
+[2020-03-25 18:24:05,772] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 4.129174875318779
+ Humidity - 62.28111104995543
+ Atmosphere pressure - 720.226225319502
+ Light - 129.8
+ Wind speed - 27.81536593456757 
+[2020-03-25 18:24:05,865] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 4.494188480300983
+ Humidity - 60.17975785344098
+ Atmosphere pressure - 738.262217195949
+ Light - 167.8
+ Wind speed - 32.05134430079407 
+[2020-03-25 18:24:05,986] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 10.058113914725558
+ Humidity - 40.81425866915636
+ Atmosphere pressure - 711.6254861393097
+ Light - 123.2
+ Wind speed - 11.234601650613076 
+[2020-03-25 18:24:06,087] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 3.874574961101981
+ Humidity - 51.074623498513795
+ Atmosphere pressure - 718.7883923445077
+ Light - 131.95
+ Wind speed - 24.189166975332917 
+[2020-03-25 18:24:06,123] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 11.60479300441077
+ Humidity - 64.42007613384257
+ Atmosphere pressure - 688.5532867649453
+ Light - 91.05
+ Wind speed - 23.55086875479575 
+[2020-03-25 18:24:06,219] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 12.223062639185644
+ Humidity - 41.001438859460364
+ Atmosphere pressure - 689.4744163412981
+ Light - 126.63636363636364
+ Wind speed - 16.293559820794414 
+[2020-03-25 18:24:06,219] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 5.895104582995833
+ Humidity - 57.413506295417335
+ Atmosphere pressure - 699.0763658124165
+ Light - 136.4516129032258
+ Wind speed - 21.040160384792927 
+[2020-03-25 18:24:06,219] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 10.917482895456953
+ Humidity - 40.26398131973863
+ Atmosphere pressure - 724.5956010687083
+ Light - 85.0
+ Wind speed - 32.38970281685489 
+[2020-03-25 18:24:06,374] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 15.437580601128264
+ Humidity - 35.23494049135034
+ Atmosphere pressure - 677.4659530601452
+ Light - 117.75
+ Wind speed - 29.687183511968154 
+[2020-03-25 18:24:06,374] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 8.19165564708258
+ Humidity - 47.876491053446465
+ Atmosphere pressure - 669.5202750257754
+ Light - 129.55
+ Wind speed - 28.382605966777124 
+[2020-03-25 18:24:06,374] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 10.292511007735829
+ Humidity - 48.24024852241695
+ Atmosphere pressure - 688.7692527623079
+ Light - 125.0
+ Wind speed - 20.454253719078434 
+[2020-03-25 18:24:06,471] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 28.495635239586655
+ Humidity - 84.20119664333785
+ Atmosphere pressure - 768.5651834140854
+ Light - 104.0
+ Wind speed - 36.167988653150346 
+[2020-03-25 18:24:06,471] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - -15.54788431388092
+ Humidity - 39.175178629479845
+ Atmosphere pressure - 745.7853474308419
+ Light - 66.0
+ Wind speed - 23.449857095367136 
+[2020-03-25 18:24:06,472] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 25.266393059040713
+ Humidity - 61.45302468024925
+ Atmosphere pressure - 715.7985505638311
+ Light - 165.25
+ Wind speed - 27.59369087222285 
+[2020-03-25 18:24:06,585] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 9.492842211915368
+ Humidity - 47.42555022534803
+ Atmosphere pressure - 690.9981046214378
+ Light - 111.4
+ Wind speed - 25.35480510855369 
+[2020-03-25 18:24:06,593] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 11.15912506820062
+ Humidity - 50.46690170625252
+ Atmosphere pressure - 706.1541458552458
+ Light - 123.5
+ Wind speed - 19.175548119802695 
+[2020-03-25 18:24:06,651] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 10.422792743453376
+ Humidity - 51.73492567197619
+ Atmosphere pressure - 674.3669594458244
+ Light - 124.58333333333333
+ Wind speed - 24.23931757790829 
+[2020-03-25 18:24:06,659] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 12.013985559208109
+ Humidity - 41.677167219667005
+ Atmosphere pressure - 652.0004585595267
+ Light - 82.33333333333333
+ Wind speed - 25.220669463080913 
+[2020-03-25 18:24:06,770] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 11.615595478938978
+ Humidity - 56.85170784430259
+ Atmosphere pressure - 720.47085809825
+ Light - 124.55
+ Wind speed - 22.61018658292853 
+[2020-03-25 18:24:06,840] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - -1.4076164680877927
+ Humidity - 70.20474021153268
+ Atmosphere pressure - 727.1849735370602
+ Light - 112.33333333333333
+ Wind speed - 23.452674642016117 
+[2020-03-25 18:24:06,840] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 22.409189371819085
+ Humidity - 34.548451180387
+ Atmosphere pressure - 698.2169383446176
+ Light - 100.0
+ Wind speed - 13.381145049121756 
+[2020-03-25 18:24:06,860] INFO  [app.Application] Forecast from sensor 1 : HEAVY_RAIN
+ Temperature - 20.473358156219096
+ Humidity - 73.02508557721244
+ Atmosphere pressure - 683.8042859334441
+ Light - 200.0
+ Wind speed - 22.68250885870332 
+[2020-03-25 18:24:06,914] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 4.97774311328648
+ Humidity - 43.226985637854206
+ Atmosphere pressure - 690.4793894832821
+ Light - 154.4
+ Wind speed - 18.93346765145422 
+[2020-03-25 18:24:06,914] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 9.00732358968146
+ Humidity - 65.40013043165987
+ Atmosphere pressure - 693.3813240500249
+ Light - 126.33333333333333
+ Wind speed - 24.987947727335634 
+[2020-03-25 18:24:07,085] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 1.2986536984109556
+ Humidity - 67.06530767486109
+ Atmosphere pressure - 719.0422370832313
+ Light - 137.66666666666666
+ Wind speed - 15.18159409458911 
+[2020-03-25 18:24:07,085] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 10.631473585489324
+ Humidity - 47.0770458578182
+ Atmosphere pressure - 699.6409151140376
+ Light - 113.6
+ Wind speed - 20.544685884721225 
+[2020-03-25 18:24:07,085] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 17.20518012035811
+ Humidity - 39.20950322654789
+ Atmosphere pressure - 706.8228597233258
+ Light - 109.3
+ Wind speed - 23.938392779351098 
+[2020-03-25 18:24:07,178] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 26.354125163583404
+ Humidity - 31.133979556554014
+ Atmosphere pressure - 703.9364599808432
+ Light - 114.25
+ Wind speed - 16.279769411514007 
+[2020-03-25 18:24:07,178] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 11.263631221080288
+ Humidity - 66.2730924919676
+ Atmosphere pressure - 742.6594492500863
+ Light - 64.5
+ Wind speed - 31.48289407989715 
+[2020-03-25 18:24:07,178] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 4.0120165560096135
+ Humidity - 46.371202109851595
+ Atmosphere pressure - 692.0895762499395
+ Light - 82.33333333333333
+ Wind speed - 21.215496869502346 
+[2020-03-25 18:24:07,254] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.2241101100977
+ Humidity - 93.53614085318249
+ Atmosphere pressure - 709.6835730958288
+ Light - 142.66666666666666
+ Wind speed - 24.92330499766622 
+[2020-03-25 18:24:07,356] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - -17.353892904374995
+ Humidity - 52.319186143761314
+ Atmosphere pressure - 706.5533524779304
+ Light - 54.25
+ Wind speed - 21.66379470262983 
+[2020-03-25 18:24:07,444] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 11.30176325833882
+ Humidity - 49.018348221404906
+ Atmosphere pressure - 704.8080075310577
+ Light - 141.1
+ Wind speed - 22.187382730865288 
+[2020-03-25 18:24:07,444] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 5.3283287646632065
+ Humidity - 40.37378704623444
+ Atmosphere pressure - 705.2699378430286
+ Light - 161.5
+ Wind speed - 16.377186472304576 
+[2020-03-25 18:24:07,557] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 8.21278491932847
+ Humidity - 44.425458030542245
+ Atmosphere pressure - 724.206209685828
+ Light - 109.83333333333333
+ Wind speed - 27.74864507842223 
+[2020-03-25 18:24:07,628] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 13.098821608216728
+ Humidity - 44.526907796313104
+ Atmosphere pressure - 702.1554273047302
+ Light - 110.75
+ Wind speed - 24.39098473251466 
+[2020-03-25 18:24:07,628] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 3.4274005158751373
+ Humidity - 66.36014369257953
+ Atmosphere pressure - 692.6547018440475
+ Light - 124.61538461538461
+ Wind speed - 25.771137033008166 
+[2020-03-25 18:24:07,714] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 20.4995197534918
+ Humidity - 63.64524866702376
+ Atmosphere pressure - 768.0505759097092
+ Light - 111.0
+ Wind speed - 10.578542659002869 
+[2020-03-25 18:24:07,817] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 29.81937372615612
+ Humidity - 22.75630494719937
+ Atmosphere pressure - 637.9472827978838
+ Light - 43.666666666666664
+ Wind speed - 23.740294372302344 
+[2020-03-25 18:24:07,896] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 5.135547127600428
+ Humidity - 44.40263415921969
+ Atmosphere pressure - 694.6184395868698
+ Light - 112.2
+ Wind speed - 21.283443554093576 
+[2020-03-25 18:24:07,896] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 12.93504564370609
+ Humidity - 47.39369431379664
+ Atmosphere pressure - 663.6697151259862
+ Light - 135.05
+ Wind speed - 26.199534123119697 
+[2020-03-25 18:24:07,919] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 23.253261071542102
+ Humidity - 60.561961794379485
+ Atmosphere pressure - 720.9604261958076
+ Light - 122.25
+ Wind speed - 21.17215443781071 
+[2020-03-25 18:24:08,065] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 26.00135125100327
+ Humidity - 65.51629585695363
+ Atmosphere pressure - 714.1457976529246
+ Light - 62.5
+ Wind speed - 25.237402039111284 
+[2020-03-25 18:24:08,065] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 5.602342635418461
+ Humidity - 61.40733150344588
+ Atmosphere pressure - 715.1393343676734
+ Light - 147.55
+ Wind speed - 23.680383595986388 
+[2020-03-25 18:24:08,151] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 14.347547867212725
+ Humidity - 50.354127337530656
+ Atmosphere pressure - 689.108510392242
+ Light - 141.4
+ Wind speed - 31.567678350135743 
+[2020-03-25 18:24:08,151] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 9.607427973774763
+ Humidity - 52.402762192848016
+ Atmosphere pressure - 692.7922964573232
+ Light - 126.9
+ Wind speed - 27.092826499582134 
+[2020-03-25 18:24:08,169] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 13.99502655638209
+ Humidity - 27.830968368862113
+ Atmosphere pressure - 720.9237356212053
+ Light - 139.8
+ Wind speed - 29.516427690045997 

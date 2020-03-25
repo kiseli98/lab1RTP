@@ -20,11 +20,11 @@ public class ActorSystem {
     void resurrect(Actor deadActor) throws InterruptedException {
         // concurrent array list
         ActorGroup actorGroup = actorGroups.get(deadActor.getActorName());
-        CopyOnWriteArrayList<Actor> actors =  actorGroup.getActors();
+        CopyOnWriteArrayList<Actor> actors = actorGroup.getActors();
         int indexOfDeadActor = actors.indexOf(deadActor);
         actorGroup.removeActor(deadActor);
 
-        if(indexOfDeadActor >= actors.size() || indexOfDeadActor < 0){
+        if (indexOfDeadActor >= actors.size() || indexOfDeadActor < 0) {
             actors.add(new Actor(deadActor));
             actors.get(actors.size() - 1).start();
         } else {
@@ -56,8 +56,9 @@ public class ActorSystem {
                 continue;
             }
             // removing actors on low load, kill after one min
-            if (actor.getInbox().isEmpty() &&
-                    Math.abs(actor.getBirthTime() - System.currentTimeMillis()) / 1000 > 60) {
+            if (messageIsSend && actor.getInbox().isEmpty() ) {
+//                &&
+//                (Math.abs(actor.getBirthTime() - System.currentTimeMillis()) / 1000) > 60
                 actorGroup.removeActor(actor);
             }
         }

@@ -16,12 +16,15 @@ import static handlers.Handlers.*;
 public class Application {
     public static Logger logger = Logger.getLogger(Application.class);
 
-    private static String ip = "192.168.1.9";
 
     public static void main(String[] args) throws InterruptedException {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter ip address of your machine where /iot is running: \n");
-        ip = scanner.nextLine();
+        System.out.println("Enter ip address of your machine where /iot is running " +
+                "(or press Enter if localhost): \n");
+
+        String ip = scanner.nextLine();
+        ip = "".equals(ip.trim()) ? "localhost" : ip;
+
         System.out.println("Enter output interval for sensors 1 and 2 : \n");
 
         System.out.print("Sensor 1 interval in seconds - ");
