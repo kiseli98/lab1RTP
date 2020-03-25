@@ -19,14 +19,19 @@ public class ActorSystem {
 
     void resurrect(Actor deadActor) throws InterruptedException {
         // concurrent array list
-        CopyOnWriteArrayList<Actor> actorGroup = actorGroups.get(deadActor.getActorName()).getActors();
+        ActorGroup actorGroup = actorGroups.get(deadActor.getActorName());
+        CopyOnWriteArrayList<Actor> actors =  actorGroup.getActors();
+        int indexOfDeadActor = actors.indexOf(deadActor);
+        actorGroup.removeActor(deadActor);
 
-        int indexOfDeadActor = actorGroup.indexOf(deadActor);
+        if(indexOfDeadActor >= actors.size() || indexOfDeadActor < 0){
+            actors.add(new Actor(deadActor));
+            actors.get(actors.size() - 1).start();
+        } else {
+            actors.add(indexOfDeadActor, new Actor(deadActor));
+            actors.get(indexOfDeadActor).start();
+        }
 
-        deadActor.stopThread();
-
-        actorGroup.set(indexOfDeadActor, new Actor(deadActor));
-        actorGroup.get(indexOfDeadActor).start();
         System.out.println("Actor " + deadActor.getActorName() + indexOfDeadActor + " was resurrected");
     }
 
