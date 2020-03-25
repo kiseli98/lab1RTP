@@ -8,4 +8,4 @@ RUN apt-get install maven -y
 
 RUN  cd /usr/local/lab1rtp/ && mvn package
 WORKDIR /usr/local/lab1rtp/
-CMD mvn exec:java -Dexec.mainClass="Application"
+CMD mvn exec:java -Dexec.mainClass="app.Application"

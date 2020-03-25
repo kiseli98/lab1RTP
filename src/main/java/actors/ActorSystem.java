@@ -1,6 +1,7 @@
 package actors;
 
 
+import app.Application;
 import handlers.Handler;
 
 import java.util.HashMap;
@@ -9,11 +10,10 @@ import java.util.concurrent.CopyOnWriteArrayList;
 
 public class ActorSystem {
     Map<String, ActorGroup> actorGroups = new HashMap<>();
-    int maxLoad = 20;  // inbox capacity
 
 
-    public void createActorGroup(String name, Handler handler) {
-        actorGroups.put(name, new ActorGroup(name, handler));
+    public void createActorGroup(String name, Handler handler, int inboxCapacity) {
+        actorGroups.put(name, new ActorGroup(name, handler, inboxCapacity));
     }
 
 
@@ -32,7 +32,7 @@ public class ActorSystem {
             actors.get(indexOfDeadActor).start();
         }
 
-        System.out.println("Actor " + deadActor.getActorName() + indexOfDeadActor + " was resurrected");
+        sendMessage("logger", "Actor " + deadActor.getActorName() + indexOfDeadActor + " was resurrected after failure");
     }
 
 
@@ -50,13 +50,14 @@ public class ActorSystem {
 
         for (Actor actor : actors) {
             // send if inbox is not full
-            if (actor.getInbox().size() < maxLoad && !messageIsSend) {
+            if (actor.getInbox().size() < actor.getInboxCapacity() && !messageIsSend) {
                 actor.getInbox().add(msg);
                 messageIsSend = true;
                 continue;
             }
-            // removing actors on low load
-            if (messageIsSend && actor.getInbox().isEmpty()) {
+            // removing actors on low load, kill after one min
+            if (actor.getInbox().isEmpty() &&
+                    Math.abs(actor.getBirthTime() - System.currentTimeMillis()) / 1000 > 60) {
                 actorGroup.removeActor(actor);
             }
         }
@@ -75,12 +76,12 @@ public class ActorSystem {
 
     public void getLoad() {
         System.out.println("==========================");
-        System.out.println("Load for each actor : ");
+        sendMessage("logger", "Load for each actor : ");
         actorGroups.values().forEach(actorGroup ->
                 {
                     for (int i = 0; i < actorGroup.getActors().size(); i++) {
                         Actor actor = actorGroup.getActors().get(i);
-                        System.out.println(actor.getActorName() + "_" + i + " - load is - " + actor.getInbox().size());
+                        sendMessage("logger", actor.getActorName() + "_" + i + " - load is - " + actor.getInbox().size());
                     }
                 }
         );

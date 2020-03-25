@@ -61,16 +61,19 @@ public class Forecaster implements Handler {
                 lightSensor
         );
 
-        String forecast = doForecast(message);
         sensorEntries.clear();
-        system.sendMessage("printer",
-                forecastSensors + forecast +
-                        "\n Temperature - " + message.getTemperatureSensor() +
-                        "\n Humidity - " + message.getHumiditySensor() +
-                        "\n Atmosphere pressure - " + message.getAtmoPressureSensor() +
-                        "\n Light - " + message.getLightSensor() +
-                        "\n Wind speed - " + message.getWindSpeedSensor()
-        );
+
+        String forecast = doForecast(message);
+
+        String forecastMsg = forecastSensors + forecast +
+                "\n Temperature - " + message.getTemperatureSensor() +
+                "\n Humidity - " + message.getHumiditySensor() +
+                "\n Atmosphere pressure - " + message.getAtmoPressureSensor() +
+                "\n Light - " + message.getLightSensor() +
+                "\n Wind speed - " + message.getWindSpeedSensor();
+
+        system.sendMessage("printer", forecastMsg);
+        system.sendMessage("logger", forecastMsg);
     }
 
     private static String doForecast(Sensor message) {

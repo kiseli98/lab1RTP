@@ -8,14 +8,16 @@ public class ActorGroup {
     Handler handler;
     CopyOnWriteArrayList<Actor> actors = new CopyOnWriteArrayList<>();
     String groupName;
+    int inboxCapacity;
 
-    public ActorGroup(String groupName, Handler handler) {
+    public ActorGroup(String groupName, Handler handler, int inboxCapacity) {
         this.handler = handler;
         this.groupName = groupName;
+        this.inboxCapacity = inboxCapacity;
     }
 
     public void addActor() {
-        Actor createdActor = new Actor(groupName, handler);
+        Actor createdActor = new Actor(groupName, handler, inboxCapacity);
         createdActor.start();
         actors.add(createdActor);
     }

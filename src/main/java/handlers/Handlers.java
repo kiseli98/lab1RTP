@@ -1,9 +1,12 @@
 package handlers;
 
+import app.Application;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import model.ResponseSensor1;
 import model.ResponseSensor2;
+
+import java.sql.SQLOutput;
 
 public class Handlers {
     static ObjectMapper mapper = new ObjectMapper();
@@ -40,10 +43,14 @@ public class Handlers {
 
     public static Handler printer = msg -> {
         if (msg == null) return;
-//            system.getLoad();
         System.out.println("---------------------------------------");
         System.out.println(msg);
         System.out.println("---------------------------------------");
+    };
+
+    public static Handler loggerHandler = msg -> {
+        if (msg == null) return;
+        Application.logger.info(msg);
     };
 
 

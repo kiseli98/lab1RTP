@@ -1,0 +1,114 @@
+[2020-03-25 17:48:08,410] INFO  [app.Application] SSE is running on 192.168.1.9 
+[2020-03-25 17:48:08,411] INFO  [app.Application] Sensor 1 time interval is set to 1.0 seconds 
+[2020-03-25 17:48:08,411] INFO  [app.Application] Sensor 2 time interval is set to 1.0 seconds 
+[2020-03-25 17:48:08,963] INFO  [app.Application] Actor <processor> has crashed 
+Panic exception 
+[2020-03-25 17:48:08,964] INFO  [app.Application] Actor processor1 was resurrected after failure 
+[2020-03-25 17:48:09,272] INFO  [app.Application] Actor <processor> has crashed 
+Panic exception 
+[2020-03-25 17:48:09,272] INFO  [app.Application] Actor processor0 was resurrected after failure 
+[2020-03-25 17:48:09,860] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 8.58680065534287
+ Humidity - 48.124470034246244
+ Atmosphere pressure - 699.2089818908369
+ Light - 129.7537313432836
+ Wind speed - 23.621363463352026 
+[2020-03-25 17:48:10,024] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 10.198175637777704
+ Humidity - 49.384803227783195
+ Atmosphere pressure - 700.881515589389
+ Light - 129.95774647887325
+ Wind speed - 24.20422625639979 
+[2020-03-25 17:48:10,879] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 10.87908020989082
+ Humidity - 49.01121020433148
+ Atmosphere pressure - 702.7079153841182
+ Light - 125.9225352112676
+ Wind speed - 24.694950831829196 
+[2020-03-25 17:48:11,378] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 11.402534308170077
+ Humidity - 50.82385847643251
+ Atmosphere pressure - 696.0821624937993
+ Light - 131.43150684931507
+ Wind speed - 26.452226576937015 
+[2020-03-25 17:48:12,081] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 10.36244849675427
+ Humidity - 49.64157722486622
+ Atmosphere pressure - 695.2247238044256
+ Light - 142.92105263157896
+ Wind speed - 24.80452069827153 
+[2020-03-25 17:48:12,529] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 12.079472810148438
+ Humidity - 46.17804752350784
+ Atmosphere pressure - 698.23971321191
+ Light - 135.34615384615384
+ Wind speed - 25.83941038102838 
+[2020-03-25 17:48:13,136] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 11.841541760888004
+ Humidity - 52.54457283462371
+ Atmosphere pressure - 702.0617928049516
+ Light - 143.4857142857143
+ Wind speed - 28.302203411758473 
+[2020-03-25 17:48:13,549] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 14.678700570245104
+ Humidity - 55.465944061761114
+ Atmosphere pressure - 703.1640816277813
+ Light - 126.37837837837837
+ Wind speed - 23.143903462535004 
+[2020-03-25 17:48:15,002] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 11.848118525302349
+ Humidity - 45.803426496293206
+ Atmosphere pressure - 698.8922781986029
+ Light - 134.0
+ Wind speed - 24.311441707873612 
+[2020-03-25 17:48:15,002] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 11.027181563059012
+ Humidity - 49.07565063008571
+ Atmosphere pressure - 695.1583253977146
+ Light - 119.52112676056338
+ Wind speed - 25.89041812135986 
+[2020-03-25 17:48:16,018] INFO  [app.Application] Actor <processor> has crashed 
+Panic exception 
+[2020-03-25 17:48:16,018] INFO  [app.Application] Actor processor3 was resurrected after failure 
+[2020-03-25 17:48:16,018] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 10.896349346347028
+ Humidity - 51.21340105603818
+ Atmosphere pressure - 697.0798195732143
+ Light - 126.0530303030303
+ Wind speed - 24.228893366431812 
+[2020-03-25 17:48:16,018] INFO  [app.Application] Forecast from sensor 1 : JUST_A_NORMAL_DAY
+ Temperature - 9.010821597566615
+ Humidity - 48.92729456623406
+ Atmosphere pressure - 701.621674366538
+ Light - 132.54861111111111
+ Wind speed - 25.879226588519067 
+[2020-03-25 17:48:16,018] INFO  [app.Application] Actor <processor> has crashed 
+Panic exception 
+[2020-03-25 17:48:16,018] INFO  [app.Application] Actor processor4 was resurrected after failure 
+[2020-03-25 17:48:17,459] INFO  [app.Application] Forecast from sensor 2 : CLOUDY
+ Temperature - 10.964373293277168
+ Humidity - 51.235567850404806
+ Atmosphere pressure - 698.4445717047957
+ Light - 123.79333333333334
+ Wind speed - 24.165706954017814 
+[2020-03-25 17:48:17,459] INFO  [app.Application] Actor <processor> has crashed 
+Panic exception 
+[2020-03-25 17:48:17,459] INFO  [app.Application] Actor processor2 was resurrected after failure 
+[2020-03-25 17:48:17,459] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 7.783781698090423
+ Humidity - 49.64284136771596
+ Atmosphere pressure - 697.2892654093766
+ Light - 127.31884057971014
+ Wind speed - 25.426560917540183 
+[2020-03-25 17:48:18,490] INFO  [app.Application] Forecast from sensor 2 : JUST_A_NORMAL_DAY
+ Temperature - 9.348639018869996
+ Humidity - 50.113862354098835
+ Atmosphere pressure - 700.1883224613978
+ Light - 129.58636363636364
+ Wind speed - 24.90683360875804 
+[2020-03-25 17:48:18,492] INFO  [app.Application] Forecast from sensor 1 : CLOUDY
+ Temperature - 8.682695048205439
+ Humidity - 52.80444638670705
+ Atmosphere pressure - 699.7219546524702
+ Light - 124.44588744588745
+ Wind speed - 23.83277866257008 
